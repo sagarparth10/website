@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>vitra</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link href="css/bootstrap.css" rel="stylesheet"  type="text/css">
+        <link href="css/bootstrap.min" rel="stylesheet"  type="text/css">
+        <script src ="js/bootstrap.js" type="text/javascript"></script>
+        <script src ="js/bootstrap.min.js" type="text/javascript"></script>
+         <link href="css1.css" rel="stylesheet" type="text/css">    
+    </head>
+    <body>
+        
+        
+       
+      <div class="container-fluid" style="background: sandybrown">
+        <div class="col-lg-2" style="margin-top: 0px;">
+            <img src="air1.jpg" style="margin-left: -30px; height: 118px;width: 233px;">
+            
+        </div>
+            <a href="index.html">
+            <div class="col-lg-1"><button type="submit" class="but1"  >Flights</button> </div>
+            </a>
+            <a href="2nd page.html">
+            <div class="col-lg-1"><button type="submit" class="but1" >Hotels</button> </div>
+            </a>
+            <a href="cabs.html">
+            <div class="col-lg-1"><button type="submit"  class="but1">Cabs</button> </div>
+            </a>
+            
+          <a href="aboutus.html"> <div class="col-lg-1"><button type="submit"  class="but1">About Us</button> </div></a>
+            <div class="col-lg-1"><button type="submit" class="but1" onclick="document.getElementById('id01').style.display='block'" >Log In
+    </button><div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php">
+    
+
+    <div class="container-fluid">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit" class="but1" style="width: 1000px; background: lightblue">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container-fluid" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="but1">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div> 
+            </div>
+            <div class="col-lg-1"><button type="submit" class="but1" >Sign Up</button>
+            </div>
+                
+                          
+        
+            </div>
+        
+    
+         <div class="container-fluid">
+             <p class="p1" >
+            Craving for a holiday? don't just plan, book one!
+            </p>
+        </div>
+        <form>
+
+                 
+  
+            <div class="container" style=" background-image: url(hotel.jpg); background-size: 100%; ">
+                <button type="submit" class="button2"> 
+                
+V
+I
+T
+R
+A
+                
+            </button>
+                 
+<!--              <img src="airpp.jpg" alt="Flight" style="width:100%;">-->
+
+            <div class=" jumbotron " style=" color: black;  background: inherit">
+                
+                <div class="container" style="color: brown">
+                <div  class="col-lg-6" style=" height:5px; "  >
+            
+                City
+               </div>
+                   </div>
+                <div class="container" style="color: brown">
+                 <div class="col-lg-6" style=" height:20px; ">
+            
+                     <input class="box" type="text" id="n1" style="width:200px"  >
+                 </div>
+                    </div>
+                <div class="container" style="color: brown">
+            <div class="col-xs-3" style=" height:20px; ">
+                Check-IN Date
+                
+            </div>
+           <div class="col-lg-3" style=" height:20px; ">
+                Check-IN Time
+           </div>
+                </div>
+                 <div class="container" style="color: brown">
+            <div class="col-xs-3" style=" height:20px; ">
+                <input class="box" type="date" id="n3" >
+            </div>
+                     <div class="col-lg-3" style=" height:20px; ">
+                <select class="box" id="s1">
+    <option>Anytime</option>       
+    <option>12am-9am</option>       
+    <option>6am-noon</option>       
+    <option>10am-2pm</option>       
+    <option>noon-5pm</option>       
+    <option>4pm-8pm</option>       
+    <option>6pm-12am</option>       
+    <option>1am</option>       
+    <option>2am</option>       
+    <option>3am</option>       
+    <option>4am</option>       
+    <option>5am</option>       
+    <option>6am</option>       
+    <option>7am</option>       
+    <option>8am</option>       
+    <option>9am</option>       
+    <option>10am</option>       
+    <option>11am</option>       
+    <option>noon</option>
+    <option>1pm</option>       
+    <option>2pm</option>       
+    <option>3pm</option>       
+    <option>4pm</option>       
+    <option>5pm</option>       
+    <option>6pm</option>       
+    <option>7pm</option>       
+    <option>8pm</option>       
+    <option>9pm</option>       
+    <option>10pm</option>       
+    <option>11pm</option>       
+    <option>midnight</option>       
+                </select> 
+            </div>
+                 </div>
+   <div class="container" style="color: brown">
+            <div class="col-xs-3" style=" height:20px; ">
+               Check-OUT Date
+                
+            </div>
+            <div class="col-lg-3" style=" height:20px; ">
+                Check-OUT Time
+            </div>
+   </div>
+                <div class="container" style="color: brown">
+            <div class="col-xs-3" style=" height:20px; ">
+                <input class="box" type="date">
+            </div>
+                    
+                    <div class="col-lg-3" style=" height:20px; ">
+                <select class="box" id="s1" >
+    <option>Anytime</option>       
+    <option>12am-9am</option>       
+    <option>6am-noon</option>       
+    <option>10am-2pm</option>       
+    <option>noon-5pm</option>       
+    <option>4pm-8pm</option>       
+    <option>6pm-12am</option>       
+    <option>1am</option>       
+    <option>2am</option>       
+    <option>3am</option>       
+    <option>4am</option>       
+    <option>5am</option>       
+    <option>6am</option>       
+    <option>7am</option>       
+    <option>8am</option>       
+    <option>9am</option>       
+    <option>10am</option>       
+    <option>11am</option>       
+    <option>noon</option>
+    <option>1pm</option>       
+    <option>2pm</option>       
+    <option>3pm</option>       
+    <option>4pm</option>       
+    <option>5pm</option>       
+    <option>6pm</option>       
+    <option>7pm</option>       
+    <option>8pm</option>       
+    <option>9pm</option>       
+    <option>10pm</option>       
+    <option>11pm</option>       
+    <option>midnight</option>       
+                </select> 
+            </div>
+                </div>
+                <div class="container" style="color: brown">
+            <div class="col-xs-2" style=" height:20px; ">
+            
+                Adults:
+                
+            </div>
+            
+            <div class="col-xs-2" style=" height:20px; ">
+                Children:
+               
+            </div>
+            <div class="col-xs-2" style=" height:20px; ">
+                Infants:
+                </div>
+            </div>
+                <div class="container" style="color: brown">
+            <div class="col-xs-2" style=" height:20px; ">
+                <select class="box1" id="s2" >
+    <option>1</option>       
+    <option>2</option>       
+    <option>3</option>       
+    <option>4</option>       
+    <option>5</option>       
+    <option>6</option>       
+    <option>7</option>       
+    <option>8</option>       
+    <option>9</option>
+                </select>
+            </div>
+                    <div class="col-xs-2" style=" height:20px; ">
+                 <select class="box1" id="s3" >
+    <option>0</option>       
+    <option>1</option>       
+    <option>2</option>       
+    <option>3</option>       
+    <option>4</option>       
+    <option>5</option>       
+    <option>6</option>       
+    <option>7</option>       
+    <option>8</option> 
+    <option>9</option>
+                </select>
+                    </div>
+                    <div class="col-xs-2" style=" height:20px; ">
+                <select class="box1" id="s4" >
+    <option>0</option>       
+    <option>1</option>       
+    <option>2</option>       
+    <option>3</option>       
+    <option>4</option>       
+    <option>5</option>       
+    <option>6</option>       
+    <option>7</option>       
+    <option>8</option> 
+    <option>9</option>
+                </select>
+                    </div>
+                </div>
+            </div>
+            
+            
+  </div>
+        </form>
+
+        
+        <div class="container-fluid" style="background-image:url('travel1.jpg');
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-position:center;
+opacity: 0.8">
+        <div class="container" > 
+            <br>
+            <br>
+            <br>
+            <p class="p1" style="color: black">
+                Hotels that gives your stay a luxurious touch
+            </p>
+            <hr style="width: 200px; margin-left: 500px; color: blue; height: 20px; background-color: darkred  ">
+            <br>
+            <br>
+            <br>
+            <p class="p2" style="color: #333333">
+                 Isn't it fun if your stay becomes luxurious, and your craving increase time to time. So, this luxurious stay is much easier and affordable with travelicious. Coz, it isn't just living its your memories.
+            </p>
+            <br>
+            <br>
+            <br>
+           
+        <script src="js/jssor.slider-27.1.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_SlideshowTransitions = [
+              {$Duration:800,x:0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:-0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:-0.3,$During:{$Left:[0.3,0.7]},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$SlideOut:true,$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:-0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:-0.3,$During:{$Top:[0.3,0.7]},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$SlideOut:true,$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$Cols:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$Rows:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:0.3,$Cols:2,$During:{$Top:[0.3,0.7]},$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,y:-0.3,$Cols:2,$SlideOut:true,$ChessMode:{$Column:12},$Easing:{$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,$Rows:2,$During:{$Left:[0.3,0.7]},$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:-0.3,$Rows:2,$SlideOut:true,$ChessMode:{$Row:3},$Easing:{$Left:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,x:0.3,y:0.3,$Cols:2,$Rows:2,$During:{$Left:[0.3,0.7],$Top:[0.3,0.7]},$SlideOut:true,$ChessMode:{$Column:3,$Row:12},$Easing:{$Left:$Jease$.$InCubic,$Top:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,$Delay:20,$Clip:3,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,$Delay:20,$Clip:3,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,$Delay:20,$Clip:12,$Assembly:260,$Easing:{$Clip:$Jease$.$InCubic,$Opacity:$Jease$.$Linear},$Opacity:2},
+              {$Duration:800,$Delay:20,$Clip:12,$SlideOut:true,$Assembly:260,$Easing:{$Clip:$Jease$.$OutCubic,$Opacity:$Jease$.$Linear},$Opacity:2}
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideshowOptions: {
+                $Class: $JssorSlideshowRunner$,
+                $Transitions: jssor_1_SlideshowTransitions,
+                $TransitionsOrder: 1
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              },
+              $ThumbnailNavigatorOptions: {
+                $Class: $JssorThumbnailNavigator$,
+                $Orientation: 2
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+    <style>
+        /*jssor slider loading skin spin css*/
+        .jssorl-009-spin img {
+            animation-name: jssorl-009-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-009-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /*jssor slider bullet skin 111 css*/
+        .jssorb111 .i {position:absolute;color:#fff;font-family:"Helvetica neue",Helvetica,Arial,sans-serif;text-align:center;cursor:pointer;z-index:0;}
+        .jssorb111 .i .n {display:none;}
+        .jssorb111 .i .b {fill:#fff;stroke:#000;stroke-width:500;stroke-miterlimit:10;stroke-opacity:.5;}
+        .jssorb111 .i:hover .b {fill:#fea900;stroke:#fea900;stroke-width:6000;stroke-opacity:1;}
+        .jssorb111 .iav .b {fill:#000;stroke-width:6000;stroke-opacity:1;}
+        .jssorb111 .i.idn {opacity:.3;}
+        .jssorb111 .iav .n, .jssorb111 .i:hover .n {display:block;}
+
+        /*jssor slider thumbnail skin 121 css*/
+        .jssort121 .p {position:absolute;top:0;left:0;border-bottom:1px solid rgba(255,255,255,.2);box-sizing:border-box;color:#fff;background:rgba(0,0,0,.1);opacity:.7;}
+        .jssort121 .p .t {position:absolute;padding:10px;box-sizing:border-box;top:0;left:0;width:100%;height:100%;line-height:24px;overflow:hidden;}
+        .jssort121 .p .i {margin-right:10px;position:relative;top:0;left:0;width:96px;height:48px;border:none;float:left;}
+        .jssort121 .pav, .jssort121 .p:hover {color:#000;background:rgba(255,255,255,.7);}
+        .jssort121 .p:hover {opacity:.75;}
+        .jssort121 .pav, .jssort121 .p:hover.pdn {opacity:1;}
+        .jssort121 .ti {position:relative;font-size:14px;font-weight:bold;}
+        .jssort121 .d {position:relative;font-size:12px;}
+        /*.jssort121 .d:before {content:'\a';white-space:pre;}*/
+    </style>
+    <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:380px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
+            <div data-p="170.00">
+                <img data-u="image" src="paris.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="paris.jpg" />
+                    <span class="ti">PARIS</span><br />
+                    <span class="d">FRANCE</span>
+                </div>
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="london.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="london.jpg" />
+                    <span class="ti">LONDON</span><br />
+                    <span class="d">UNITED KINGDOM</span>
+                </div>
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="rome.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="rome.jpg" />
+                    <span class="ti">ROME</span><br />
+                    <span class="d">ITALY</span>
+                </div>
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="bali.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="bali.jpg" />
+                    <span class="ti">BALI</span><br />
+                    <span class="d">INDONESIA</span>
+                </div>
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="crete greece.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="crete greece.jpg" />
+                    <span class="ti">CRETE</span><br />
+                    <span class="d">GREECE</span>
+                </div>
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="barcelona.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="barcelona.jpg" />
+                    <span class="ti">BARCELONA</span><br />
+                    <span class="d">SPAIN</span>
+                </div>
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="prague.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="prague.jpg" />
+                    <span class="ti">PRAGUE</span><br />
+                    <span class="d">CZECH REPUBLIC</span>
+                </div>
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="marrakech.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="marrakech.jpg" />
+                    <span class="ti">MARRAKECH</span><br />
+                    <span class="d">MOROCCO</span>
+                </div>
+            </div>
+            
+            <div data-p="170.00">
+                <img data-u="image" src="istanbul.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="istanbul.jpg" />
+                    <span class="ti">ISTANBUL</span><br />
+                    <span class="d">TURKEY</span>
+                </div>
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="new york.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="new york.jpg" />
+                    <span class="ti">NEW YORK CITY</span><br />
+                    <span class="d">NEW YORK</span>
+                </div>
+            </div>
+            <div data-p="170.00">
+                <img data-u="image" src="phuket.jpg" />
+                <div data-u="thumb">
+                    <img data-u="thumb" class="i" src="phuket.jpg" />
+                    <span class="ti">PHUKET</span><br />
+                    <span class="d">THAILAND</span>
+                </div>
+            </div>
+        </div>
+        <!-- Thumbnail Navigator -->
+        <div data-u="thumbnavigator" class="jssort121" style="position:absolute;left:0px;top:0px;width:268px;height:380px;overflow:hidden;cursor:default;" data-autocenter="2" data-scale-left="0.75">
+            <div data-u="slides">
+                <div data-u="prototype" class="p" style="width:268px;height:68px;">
+                    <div data-u="thumbnailtemplate" class="t"></div>
+                </div>
+            </div>
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb111" style="position:absolute;bottom:12px;right:12px;" data-scale="0.5">
+            <div data-u="prototype" class="i" style="width:24px;height:24px;font-size:12px;line-height:24px;">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;z-index:-1;">
+                    <circle class="b" cx="8000" cy="8000" r="3000"></circle>
+                </svg>
+                <div data-u="numbertemplate" class="n"></div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();</script>
+        </div>
+        <div class="container-fluid" >
+            <p class="p1" style="color: #666666">     Looking for more Discounts! 
+                Call Now at 9899373399 
+            <p class="p2">
+to unlock unpublished rates for call center exclusive flight deals.</p>
+       
+We know you love to spend less and fly smarter and that’s why we have partnered with airlines for exclusive and undisclosed fares just for our customers. So what are you waiting for! Pick up your phone and call us toll free 1-855-722-9977 now to unlock call center exclusive flight deals. We do not charge any service fee on published fares of airlines.
+       </p>
+        </div>
+        </div>
+    </body>
+</html>
